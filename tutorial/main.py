@@ -148,6 +148,6 @@ def main(page: ft.Page):
         ],
     )
     page.add(color_dropdown, submit_btn, output_text)
-    page.scroll = "always"
+page.scroll = "always"
 
 ft.app(main)
